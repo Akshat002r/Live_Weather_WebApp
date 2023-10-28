@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    /* font-family: 'Poppins',sans-serif; */
+    font-family: 'Tilt Neon', sans-serif;;
+
+}
+
+body{
+    background-color: #e2e477;
+}
+
+#card{
+    width:90%;
+    max-width:470px;
+    /* background: linear-gradient(135deg,#00feba,#5b548a); */
+    background-color: #6ebbe4;
+    color:#fff;
+    margin:100px auto 0;
+    border-radius: 22px;
+    /* overflow:hidden; */
+    padding:40px 35px;
+    text-align:center;
+}
+
+#search{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hea{
+    padding-top: 50px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 40px;
+    color:#a66565;
+}
+#search input{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    color:#555;
+    padding:10px 25px;
+    height:60px;
+    border-radius:23px;
+    flex:1;
+    margin-right: 16px;
+    font-size:20px;
+}
+
+#search button{
+    border:0;
+    outline:0;
+    background:#ebfffc;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+#search button img{
+    width:16px;
+    /* height:20px; */
+}
+
+.weather-icon{
+    width:170px;
+    margin-top: 30px;
+}
+
+.temp{
+    font-size:40px;
+    font-weight:400;
+}
+.city{
+    font-size:40px;
+    font-weight:400;
+    margin-top: -10px;
+}
+
+#details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display:flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width:40px;
+    margin-right: 12px;
+}
+
+.humidity, .wind{
+    font-size:25px;
+    margin-top:-2px;
+}
+
+#weather{
+    display:none;
+}
+
+.error{
+    text-align:left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size:18px;
+    display:none;
+}
